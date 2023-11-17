@@ -109,19 +109,19 @@ This guide provides step-by-step instructions for creating a master and slave, c
 ## Running Python Code - Bubble Sort
 1. Create a new Python file:
     ```bash
-    touch /home/mpiuser/bubble/bubble.py
+    touch /home/mpiuser/bubble/cobain6.py
     ```
 2. Navigate to that directory and edit the Python file:
     ```bash
     cd /home/mpiuser/bubble
-    nano bubble.py
+    nano cobain6.py
     ```
     Then create the Python Bubble Sort code. Save by pressing `CTRL + X` and then press `Y`.
    [bubble.py code](https://github.com/NauvalPerdana/MPI-BubbleSort/blob/main/bubble.py)
 
 3. Run the code on the master:
     ```bash
-    mpirun -np 4 -host master,slave1,slave2,slave3 python3 bubble.py
+    mpirun -np 4 -host master,slave1,slave2,slave3 python3 cobain6.py
     ```
    <img width="1000" alt="Screenshot 2023-11-17 215411" src="https://github.com/MUHTADIN345/TUGAS-3_BUBBLE-SORT_PEMROSESAN-PARALEL/assets/126330305/73431771-09a4-4e61-9aad-cda7b8079b5a">
 

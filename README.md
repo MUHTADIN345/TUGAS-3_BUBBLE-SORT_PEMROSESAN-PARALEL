@@ -24,9 +24,6 @@ This guide provides step-by-step instructions for creating a master and slave, c
 4. NFS (Master and Slave)
 5. Python Bubble Sort Code
 
-## Bridged Topology
-
-
 ## Creating Master and Slave
 1. Ensure that each master and slave uses a Network Bridge Adapter and is connected to the internet.
 2. Determine which device will be the master, slave1, slave2, and slave3.

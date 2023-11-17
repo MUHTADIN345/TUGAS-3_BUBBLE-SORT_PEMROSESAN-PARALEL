@@ -123,5 +123,6 @@ This guide provides step-by-step instructions for creating a master and slave, c
     ```bash
     mpirun -np 4 -host master,slave1,slave2,slave3 python3 bubble.py
     ```
-   ![Output](https://github.com/NauvalPerdana/MPI-BubbleSort/blob/main/output.png)
+   <img width="1000" alt="Screenshot 2023-11-17 215411" src="https://github.com/MUHTADIN345/TUGAS-3_BUBBLE-SORT_PEMROSESAN-PARALEL/assets/126330305/73431771-09a4-4e61-9aad-cda7b8079b5a">
+
     If the output like this appears, it has been successful, displaying the output on both the master and slaves, with the output being 4, which is the output from the master, slave1, slave2, and slave3. So what we sorted here is an array: [5, 3, 4, 1, 2] sorted to [1, 2, 3, 4, 5].
